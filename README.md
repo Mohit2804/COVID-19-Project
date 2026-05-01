@@ -6,7 +6,7 @@
 ![NumPy](https://img.shields.io/badge/NumPy-Numerical-yellow?style=flat&logo=numpy)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-red?style=flat&logo=jupyter)
 
-A comprehensive Python-based data analysis of COVID-19 confirmed cases, deaths, and recoveries across 276 countries and regions — January 2020 to May 2021.
+A comprehensive Python-based data analysis of COVID-19 confirmed cases, deaths, and recoveries across 276 countries and regions - January 2020 to May 2021.
 
 ---
 
