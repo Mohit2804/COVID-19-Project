@@ -38,7 +38,7 @@ Three datasets from the JHU CSSE COVID-19 repository, each with **276 rows** and
 
 ---
 
-## ⚠️ Known Issue — Mixed Date Formats
+## ⚠️ Known Issue - Mixed Date Formats
 
 The dataset contains **two date formats**:
 - `M/D/YY` format - e.g. `1/22/20` (early columns)
