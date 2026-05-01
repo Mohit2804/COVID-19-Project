@@ -1,4 +1,4 @@
-# 🦠 COVID-19 Global Case Study
+# 🦠 COVID-19 Project
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat&logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green?style=flat&logo=pandas)
@@ -12,15 +12,15 @@ A comprehensive Python-based data analysis of COVID-19 confirmed cases, deaths, 
 
 ## 📖 Overview
 
-The COVID-19 pandemic, caused by the SARS-CoV-2 virus, emerged in late 2019 and rapidly spread globally, leading to significant health, economic, and social impacts. This case study demonstrates the crucial role of data analysis in managing such pandemics — using Python to track confirmed cases, recoveries, and deaths and derive actionable insights for policymakers.
+The COVID-19 pandemic, caused by the SARS-CoV-2 virus, emerged in late 2019 and rapidly spread globally, leading to significant health, economic, and social impacts. This case study demonstrates the crucial role of data analysis in managing such pandemics - using Python to track confirmed cases, recoveries, and deaths and derive actionable insights for policymakers.
 
 ---
 
 ## 🎯 Objectives
 
-- **Practical Python** — Apply Pandas, Matplotlib, and NumPy on real-world pandemic data.
-- **Insightful Analysis** — Understand spread, recovery, and mortality dynamics across regions.
-- **Skill Development** — Build confidence handling messy, real-world time-series datasets.
+- **Practical Python** - Apply Pandas, Matplotlib, and NumPy on real-world pandemic data.
+- **Insightful Analysis** - Understand spread, recovery, and mortality dynamics across regions.
+- **Skill Development** - Build confidence handling messy, real-world time-series datasets.
 
 ---
 
@@ -41,8 +41,8 @@ Three datasets from the JHU CSSE COVID-19 repository, each with **276 rows** and
 ## ⚠️ Known Issue — Mixed Date Formats
 
 The dataset contains **two date formats**:
-- `M/D/YY` format — e.g. `1/22/20` (early columns)
-- `D/M/YYYY` format — e.g. `1/2/2020` which means **Feb 1**, not Jan 2
+- `M/D/YY` format - e.g. `1/22/20` (early columns)
+- `D/M/YYYY` format - e.g. `1/2/2020` which means **Feb 1**, not Jan 2
 
 When reading from XLSX, Excel pre-parses the latter incorrectly, producing zigzag graphs.
 
