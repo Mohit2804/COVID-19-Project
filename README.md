@@ -158,9 +158,3 @@ cd covid-19-case-study
 pip install pandas matplotlib numpy openpyxl
 jupyter notebook Covid-19_Project.ipynb
 ```
-
----
-
-## 📚 Course
-
-This project was completed as part of the **Coding Ninjas Python Data Analysis** course.
